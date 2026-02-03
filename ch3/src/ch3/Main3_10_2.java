@@ -1,5 +1,5 @@
 package ch3;
-
+/*3_8_3練習問題*/
 public class Main3_10_2 {
 
 	public static void main(String[] args) {
@@ -21,3 +21,28 @@ public class Main3_10_2 {
 	}
 
 }
+
+
+/*本誌記載の模範解答を模写もかねて記載
+ * 
+ *
+ * public class Main3_10_2 {
+
+	public static void main(String[] args) {
+	int isHungry = 1;
+	String foof =("おにぎり");
+	Syetem.out.println("こんにちは！");
+	if (isHungry ==0) {
+		System.out.printin("お腹がいっぱいです");
+		}else {
+			System.out.println("はらぺこです");
+			}
+	if(isHungry ==1) {
+		System.out.println(food +"いただきます");
+	}
+	System.out.println("ごちそうさまでした");
+		}
+	}
+	
+ 
+ */
