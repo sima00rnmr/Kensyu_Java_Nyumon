@@ -36,13 +36,13 @@ public class Main3_10_2 {
 		System.out.printin("お腹がいっぱいです");
 		}else {
 			System.out.println("はらぺこです");
-			}
+	}
 	if(isHungry ==1) {
 		System.out.println(food +"いただきます");
 	}
 	System.out.println("ごちそうさまでした");
-		}
 	}
+}
 	
  
  */
