@@ -1,5 +1,7 @@
 package ch3;
 
+import java.util.jar.Attributes.Name;
+
 public class Main3_10_1 {
 
 	public static void main(String[] args) {
@@ -8,7 +10,10 @@ public class Main3_10_1 {
 		Weght == 60
 				
 		(age1 + age2)*2 > 60
-		n > 1;( n - 1)
-	}
+		
+		age % 2 == 1
+		
+		name.equals("奏")
+ 	}
 
 }
