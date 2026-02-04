@@ -2,7 +2,10 @@ package ch5;
 
 /*5_5
  * 複数の引数を渡す
- *  
+ *  public static void メソッド名(引数リスト) {
+ *  メソッドの処理
+ *  ｝
+ *  の流れ…
  * 
  * */
 public class Main5_5 {
