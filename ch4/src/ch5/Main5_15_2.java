@@ -1,18 +1,24 @@
 package ch5;
-
-public class Main5_10_2 {
+/*5_8_2 練習問題
+ * 複数の引数を用いて表示
+ * 
+ * */
+public class Main5_15_2 {
 
 	public static void main(String[] args) {
 		// TODO 自動生成されたメソッド・スタブ
-		String litele = x ;
-		String address =y ;
-		String
+		// String型だから""を忘れないで！
+		String titele = "x" ;
+		String address ="y" ;
+		String text = "z" ;
 		
-		email();
+		email(titele,address,text);
 
 	}
 
-	public static String email(String litele,String address,String text) {
-		System.out.println(+"に以下のメールを送信しました");
+	public static void email(String titele,String address,String text) {//voidを忘れないで…！
+		System.out.println(address+"に以下のメールを送信しました");
+		System.out.println("件名："+titele );
+		System.out.println("本文："+text);
 	} 
 }
