@@ -1,11 +1,11 @@
 package calcapp.main;
-	/*6_8のコード
-	 * 
-	 * 
-	 * 	*/
-import calcapp.logics.CalcLogic;//calcapp.logics.CalcLogicをインポート
+/*import文はこのような記載でも可能
+ * 
+ * */
 
-public class Main6_8 {
+import calcapp.logics.*;//calcapp.logics.CalcLogicをインポート
+
+public class Main6_9 {
 	public static void main(String[] args) {
 		int a =10;
 		int b =2;
