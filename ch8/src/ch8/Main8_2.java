@@ -1,3 +1,4 @@
+package ch8;
 /*8_2
  * HeroクラスをJavannoコードで表したもの
  * 
@@ -11,7 +12,7 @@ public class Main8_2 {//Heroクラス
 	String name;
 	int hp;
 	// 操作の定義
-	pblic void attack() {
+	public void attack() {
 		
 	}
 	public void sleep() {
