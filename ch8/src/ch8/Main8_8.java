@@ -1,3 +1,4 @@
+package ch8;
 /*他のメソッドを追加する
  * */
 public class Main8_8 {
@@ -24,12 +25,12 @@ public class Main8_8 {
 	public void slip() {
 		this.hp-=5;
 		System.out.println(this.name+"は転んだ！");
-		System.out.println("5のダメージ！")
+		System.out.println("5のダメージ！");
 	}
 
 	public void run() {
 		System.out.println(this.name+"は逃げ出した！");
 		System.out.println("GAMEOVER");
-		System.out println("最終的なHPは"+this.hp+"でした")
+		System.out println("最終的なHPは"+this.hp+"でした");
 	}
 }
