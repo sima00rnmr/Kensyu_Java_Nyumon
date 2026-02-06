@@ -1,3 +1,4 @@
+package ch8;
 /*フィールドの宣言
  * 属性を宣言するには
  * クラスブロックの中で変数宣言を記述する
@@ -14,7 +15,9 @@ public class Main8_5 {// 本誌上ではMatango
 
 	int hp;
 	int level = 10;//お化けキノコのレベルに10を設定した。
-
+	char suffix;
+	public void run() {
+		System.out.println("お化けキノコ"+this.suffix+"は逃げ出した");
 	}
 
-}
+	}

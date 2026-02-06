@@ -1,9 +1,5 @@
 package ch8;
-/*仮想世界に勇者を生み出すプログラム
- * 
- * インスタンスのメソッド呼び出し
- * 
- * */
+
 public class Main8_13 {
 	 	
 		String name;
@@ -41,7 +37,7 @@ public class Main8_13 {
 	public static void main(String[] args) {
 		// TODO 自動生成されたメソッド・スタブ
 		
-		Hero h = new Hero ();
+		Main8_2 h = new Main8_2 ();
 		h.name ="ミナト";
 		h.hp = 100;
 		
@@ -49,7 +45,7 @@ public class Main8_13 {
 	
 	h.sit(5);
 	h.slip();
-	h.git();
+	h.sit(25);
 	h.run();
 		
 	}
