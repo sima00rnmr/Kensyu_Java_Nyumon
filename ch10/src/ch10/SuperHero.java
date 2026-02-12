@@ -29,6 +29,9 @@ public class SuperHero extends Hero {
 	 *superは今より1つ内側のインスタンス部分を表す予約語 
 	 * */
 	public void attack(Matango m) {
+		System.out.println(this.name + "の攻撃！");
+		m.hp -= 10;
+		System.out.println("10ポイントのダメージを与えた！");//SuperHeroクラスの通常攻撃のダメージは10とする
 		super.attack(m);
 		//親インスタンス部分のattack()を呼び出している
 		if (flying) {
