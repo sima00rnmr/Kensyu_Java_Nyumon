@@ -21,4 +21,4 @@ public abstract class TangibleAsset extends Asset
 		this.weight = weight;
 	}
 
-}
+}// こちらでの進捗無
