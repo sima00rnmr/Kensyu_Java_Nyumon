@@ -1,5 +1,5 @@
 package ch12;
 
-public class Matango {
-	int hp;
+public class Matango extends Monster {
+	
 }

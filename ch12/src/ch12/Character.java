@@ -1,6 +1,6 @@
 package ch12;
 
-public abstract class Caracter {
+public abstract class Character {
 	String name;
 	int hp;
 

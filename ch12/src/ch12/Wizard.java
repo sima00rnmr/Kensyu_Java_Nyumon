@@ -1,6 +1,6 @@
 package ch12;
 
-public class Wizard extends Caracter implements Life {
+public class Wizard extends Character implements Life {
 	int mp;
 	public void attack(Matango m) {
 		System.out.println(this.name+"の攻撃!");
