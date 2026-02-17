@@ -30,7 +30,13 @@ public class Hero {
 	public String getName() {
 		return this.name;
 	}
-
+	public int getHp() {
+		return this.hp;
+	}
+	
+	public void setHp(int hp) {
+		this.hp =hp;
+	}
 	/*フィールドのhpへはアクセス禁止だが、別のクラスの挙動を通じて
 	 * 勇者のhpを増減させたい場合は
 	 * sleep()やattack()メソッドを通せば可能
