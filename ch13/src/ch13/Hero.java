@@ -6,11 +6,11 @@ public class Hero {
 	private int hp;
 	private Sword sword;
 
-	
 	//メソッドは基本publicに設定する
 	public void bye() {
 		System.out.println("勇者は別れを告げた");
 	}
+
 	/*dieメソッドはprivateに設定している
 	 * このクラス以外からのアクセスを禁じている
 	 */
@@ -18,7 +18,7 @@ public class Hero {
 		System.out.println(this.name + "は死んでしまった");
 		System.out.println("GAMEOVERです。");
 	}
-	
+
 	/*name（勇者の名前）に関しては
 	 * 他のクラスのメソッドからも頻繁に呼ばれる。
 	 * その場合、フィールド呼び出すためだけのメソッドを作成する必要がある
@@ -52,12 +52,20 @@ public class Hero {
 		if (hp <= 0) {
 			this.die();
 		}
-		
 
-		
 	}
+
 	public void setName(String name) {
-		this.name =name;
+		this.name = name;
+		if (name == null) {
+			throw new IllegalArgumentException("名前がnullである、処理中断");
+		}
+		if (name.length() <= 1) {
+			throw new IllegalArgumentException("名前が短すぎる、処理中断");
+		}
+		if (name.length() > 8) {
+			throw new IllegalArgumentException("名前が長すぎる、処理中断");
+		}
 	}
-	
+
 }
