@@ -1,4 +1,11 @@
 package ch16;
+/*なんか変な物が呼び出されちゃう
+ * ちょくちょくimport文が書き換わっちゃうのも原因？
+ * 
+ * 
+ * 
+ * 
+*/
 import java.util.HashMap;
 import java.util.Map;
 public class Main16_7 {
