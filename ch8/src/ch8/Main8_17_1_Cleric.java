@@ -1,13 +1,13 @@
 package ch8;
 
-import java.util.*;
+import java.util.Random;
 
 public class Main8_17_1_Cleric {
 	String name;
 	int hp = 50;
-	final int MaxHp = 50;
+	static final int MaxHp = 50;
 	int mp = 10;
-	final int MaxMp = 10;
+	static final int MaxMp = 10;
 
 	public void selfAid() {
 
