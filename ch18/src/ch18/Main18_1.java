@@ -9,7 +9,6 @@ public class Main18_1 {
 		fw.write('に');
 		fw.write('ち');
 		fw.write('は');
-		fw.write('ち');
 		fw.close();
 	}
 
