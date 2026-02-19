@@ -12,12 +12,14 @@ public class Main17_6 {
 		} catch (Exception e) {
 			System.out.println("何らかの例外が発生しました");
 		} finally {
-			try {
-				fw.close(); //close失敗時には特に何もしない
-			} catch (I0Exception e) {
-				; // 何もしない、の明示
-			}
+			if (fw != null) {//fwがnullでないときだけclose()を試みる
+				try {
+					fw.close(); //close失敗時には特に何もしない
+				} catch (I0Exception e) {
+					; // 何もしない、の明示
+				}
 
+			}
 		}
 
 	}
