@@ -7,7 +7,13 @@ public abstract class Character {
 	public void run() {
 
 	}
-
-	public abstract void attack(Matango m);
+	/*
+	 * 12_9の内容
+	 * 引数にMonsterクラスを指定することで
+	 * お化けキノコだけではなくMonsterを継承している
+	 *子クラス全てをattackの対象としてみなすことができる 
+	 * 
+	 */
+	public abstract void attack(Monster m);
 
 }
