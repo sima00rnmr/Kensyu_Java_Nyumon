@@ -31,6 +31,6 @@ public class Main8_8 {
 	public void run() {
 		System.out.println(this.name+"は逃げ出した！");
 		System.out.println("GAMEOVER");
-		System.out println("最終的なHPは"+this.hp+"でした");
+		System.out println("最終的なHPは"+ this.hp +"でした");
 	}
 }

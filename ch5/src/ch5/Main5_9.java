@@ -9,9 +9,7 @@ package ch5;
 public class Main5_9 {
 
 	public static int sample() {
-・
-・
-・
+
 return 1;
 int x=10; // この一文が実行されないためエラーを起こす
 	}

@@ -1,3 +1,5 @@
+package ch8;
+
 /*眠る操作に含まれる要素を記述
  * 「眠る」の具体的な操作を以下の要素とした場合
  * 
@@ -26,7 +28,7 @@ public class Main8_7 {//hero
 	 * ふつうはstaticをつけない、という認識で
 	 * */
 	
-	public void sleep( {//staticがついていない！注意
+	public void sleep{//staticがついていない！注意
 		// TODO 自動生成されたメソッド・スタブ
 		this.hp = 100;//hpが再設定（初期化？）される　→　hpが100に回復する
 		System.out.println( this.name +"は、眠って回復した！");

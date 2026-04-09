@@ -1,3 +1,7 @@
+package ch8;
+
+import ch10.Hero;
+
 /*8_11のコード
  * 
  * 8_9は短いので一旦省略

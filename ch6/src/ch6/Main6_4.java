@@ -3,7 +3,7 @@
  *6_5のコード
  * 
  * */
-package calcapp.main;
+package ch6;
 
 public class Main6_4 {//本誌ではclass Calc
 

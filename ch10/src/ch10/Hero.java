@@ -1,5 +1,7 @@
 package ch10;
 
+import ch8.Main8_15;
+
 public class Hero {
 	String name = "ミナト";
 	int hp = 100;
